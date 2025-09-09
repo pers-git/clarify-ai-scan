@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import Header from "@/components/Header";
 import FileUpload from "@/components/FileUpload";
 import ResultsDisplay from "@/components/ResultsDisplay";
+import ImageCarousel from "@/components/ImageCarousel";
 import { Shield, Zap, Target, ArrowRight } from "lucide-react";
 
 interface AnalysisResult {
@@ -125,6 +126,13 @@ const Index = () => {
               </CardContent>
             </Card>
           </div>
+        </div>
+      </section>
+
+      {/* Image Carousel Section */}
+      <section className="py-16 px-4">
+        <div className="container mx-auto">
+          <ImageCarousel />
         </div>
       </section>
 
