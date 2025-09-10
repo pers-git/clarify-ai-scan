@@ -152,7 +152,7 @@ const QuizGame = () => {
             <p className="text-sm font-medium mb-2">Why use Clarify?</p>
             <p className="text-xs text-muted-foreground">
               Even experts struggle with AI detection. Clarify uses advanced algorithms 
-              to analyze patterns humans can't see, giving you 95%+ accuracy.
+              to analyze patterns humans can't see, giving you high accuracy.
             </p>
           </div>
 
