@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 const quizQuestions = [
   {
     id: 1,
-    image: "/images/image_1.png",
+    image: "src/components/images/image_1.png",
     isReal: true,
     explanation: "This image shows natural lighting inconsistencies and organic details typical of real photography."
   },
