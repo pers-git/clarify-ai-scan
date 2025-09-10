@@ -26,6 +26,8 @@ const FileUpload = ({ onAnalyze, isAnalyzing }: FileUploadProps) => {
       'application/pdf': ['.pdf'],
       'application/msword': ['.doc'],
       'application/vnd.openxmlformats-officedocument.wordprocessingml.document': ['.docx'],
+      'image/*': ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.bmp', '.svg'],
+      'video/*': ['.mp4', '.avi', '.mov', '.wmv', '.flv', '.webm', '.mkv'],
     },
     maxFiles: 1,
   });
@@ -60,7 +62,7 @@ const FileUpload = ({ onAnalyze, isAnalyzing }: FileUploadProps) => {
               or click to browse your files
             </p>
             <p className="text-sm text-muted-foreground">
-              Supported formats: TXT, PDF, DOC, DOCX
+              Supported formats: Documents (TXT, PDF, DOC, DOCX), Images (JPG, PNG, GIF), Videos (MP4, AVI, MOV)
             </p>
           </div>
         ) : (
