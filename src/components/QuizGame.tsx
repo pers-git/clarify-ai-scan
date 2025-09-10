@@ -15,25 +15,25 @@ const quizQuestions = [
   },
   {
     id: 2,
-    image: "/images/image_2.png",
+    image: "src/components/images/image_2.png",
     isReal: false,
     explanation: "Notice the overly perfect symmetry and unnatural skin texture - classic signs of AI generation."
   },
   {
     id: 3,
-    image: "/images/image_3.png",
+    image: "src/components/images/image_3.png",
     isReal: true,
     explanation: "The background blur and natural imperfections indicate this was captured by a real camera."
   },
   {
     id: 4,
-    image: "/images/image_4.png",
+    image: "src/components/images/image_4.png",
     isReal: false,
     explanation: "The hands show anatomical inconsistencies common in AI-generated images."
   },
   {
     id: 5,
-    image: "/images/image_5.jpg",
+    image: "src/components/images/image_5.jpg",
     isReal: true,
     explanation: "The lighting setup and natural wear patterns suggest genuine photography."
   }

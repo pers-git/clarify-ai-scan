@@ -18,7 +18,7 @@ const UsageStats = () => {
     },
     {
       icon: <Shield className="w-6 h-6" />,
-      value: "95.7%",
+      value: "90.7%",
       label: "Accuracy Rate",
       color: "text-purple-600"
     },
